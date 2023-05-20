@@ -61,3 +61,14 @@
         android:layout_weight="1"
         android:text="TextView" />
 </LinearLayout>
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle"
+    >
+    <stroke
+        android:width="3dp"
+        android:color="@color/black"
+        />
+    <corners
+        android:radius="20dp"></corners>
+</shape>
